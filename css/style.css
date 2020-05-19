@@ -1,0 +1,144 @@
+*{
+	margin:0px; padding:0px;
+}
+body{
+	color:#fff;
+	font-weight: 300;
+	font-family: Arial, Helvetica, sans-serif;
+}
+li.nav-item {
+    font-size: 15px;
+	text-transform: uppercase;
+	padding-right:20px;	
+	color:rgb(8, 8, 8);
+}
+
+	
+ 
+a.nav-link {
+    color: black;
+}
+.wrap1{
+	background: #22232591;
+
+}
+.dark-overlay{
+	background-color: rgba(0, 0, 0, 0.745);
+	height: 986px;
+	width: 100%;
+	clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 83%, 28% 98%, 0 84%, 0% 35%, 0 0);
+
+ 
+}
+
+.wrap1{
+	background: url(../img/unnamed.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 986px;
+	width: 100%;
+	clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 83%, 28% 98%, 0 84%, 0% 35%, 0 0);
+ 
+ 
+}
+ 
+  th,tr,td{
+	  border: none !important;
+  }
+
+.wrap{
+	z-index: 999;
+    position: relative;
+    
+}
+
+.nav-item:last-child{ padding-right:0px;}
+
+
+input.form-control {
+    border: none;
+	border-bottom: 2px solid #121921;
+	border-radius: 0 !important;
+	background: #ffffff;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+.FullBox {
+    background: #1219211f;
+	padding-top: 23px;
+	border-radius: 10px;
+	border: 2px solid #121921;
+}
+
+.box{
+
+	display: inline;
+}
+a.nav-link.ml-4{
+	display: flex;
+}
+a.nav-link.ml-4 {
+	border-bottom: 1px solid #121921;
+}
+ 
+.min{
+	border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+#Contact{
+		background: #121921;
+}
+
+.socialIcon{
+	list-style-type: none;
+    display: inline-flex;
+}
+.icons {
+    padding-left: 14px;
+}
+.links{
+	display: block;
+	list-style-type: none;
+}
+.contactes{
+	list-style-type: none;
+}
+#fullWraper{
+	margin: auto;
+}
+select{
+ 
+    background: none;
+    color: aliceblue;
+    border: 0px;
+	overflow-y: hidden;
+	font-size: 18px;
+}
+.equalicon{
+	min-width: 49px; 
+	background: white; 
+	border-radius: 21px;"
+}
+#Contact{
+	margin-top: -30px;
+}
+
+
+
+
+@media only screen and (max-width: 538px) {
+	 
+.wrap1,.dark-overlay{
+	height: 1337px;
+}
+.equalicon{
+	min-width: 19px; 
+}
+.table td, .table th {
+	padding: 0px;
+	padding-right: 7px;
+}
+
+  }
